@@ -10,8 +10,7 @@ import java.util.Scanner;
  */
 public class TestFTP {
     public static void main(String[] args) {
-        final int CONEXION = 1, LISTADO = 2, BUSCAR = 3,
-                DESCARGAR = 4, SUBIR = 5, DESCONEXION = 6, SALIR = 7;
+        final int CONEXION = 1, LISTADO = 2, BUSCAR = 3, DESCARGAR = 4, SUBIR = 5, DESCONEXION = 6, SALIR = 7;
         Scanner scan = new Scanner(System.in);
         String usuario, pass, server;
         int puerto, num;
